@@ -3,9 +3,9 @@
 # Spend some time changing the variables and running the file to see how the story changes.
 
 
-door_choice = 1
-bear_clothing = ""
-bear_choice = 1
+door_choice = 2
+bear_clothing = "hat"
+bear_choice = 2
 
 puts "You enter a dark room with two doors. Do you go through #1 or #2?"
 
