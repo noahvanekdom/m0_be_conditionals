@@ -51,18 +51,18 @@ puts "students >= 21", number_students >=21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: By calling the puts function we are requesting to assess the comparison and print the result. In
+# By calling the puts function we are requesting to assess the comparison and print the result. In
 # this case 4 is less than 9, so the function will print the result true and create a new line.
 
 books = 3
 puts 4 < books
-# YOU DO: Declares the variable books and sets its value to 3. Then assesses the comparison "is 4 less than
+# Declares the variable books and sets its value to 3. Then assesses the comparison "is 4 less than
 # the variable books", which has been set to a value of 3, so it will return false and print that.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Declares the variable friends and sets its value to 6, declares the variable siblings and
+# Declares the variable friends and sets its value to 6, declares the variable siblings and
 # sets its value equal to 2, then assesses the comparison "is friends greater than siblings" and returns the result.
 # Given the values assigned to the variables it will return true.
 
@@ -94,15 +94,19 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-loves_to_play && loves_treats
+puts "loves to play and eat treats"
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-loves_to_play && loves_dog_park
+puts "loves to play and the park"
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-loves_to_play || loves_dog_park
+puts "loves to play or loves the park"
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-loves_to_play && age < 1
+puts loves_to_play && age < 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: my final line of code evaluated to false, which makes sense because the
+# comparison evaluated was "1>1" which is false.
