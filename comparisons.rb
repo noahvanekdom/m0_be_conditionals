@@ -22,23 +22,23 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
-puts "teachers less than students?" number_teachers < number_students
+puts "teachers less than students?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
-puts "does string_teachers equal number number_teachers" number_teachers == string_teachers
+puts "does string_teachers equal number number_teachers", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
-puts "is number_teachers not equal to number_students" number_teachers != number_students
+puts "is number_teachers not equal to number_students", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
-puts "students >= 20" number_students >= 20
+puts "students >= 20", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
-puts "students >= 21" number_students >=21
+puts "students >= 21", number_students >=21
 # this should print: false
 
 #-------------------
@@ -51,21 +51,27 @@ puts "students >= 21" number_students >=21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: By calling the puts function we are requesting to assess the comparison and print the result. In
+# this case 4 is less than 9, so the function will print the result true and create a new line.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Declares the variable books and sets its value to 3. Then assesses the comparison "is 4 less than
+# the variable books", which has been set to a value of 3, so it will return false and print that.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Declares the variable friends and sets its value to 6, declares the variable siblings and
+# sets its value equal to 2, then assesses the comparison "is friends greater than siblings" and returns the result.
+# Given the values assigned to the variables it will return true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Declares the two variables 'attendees' and 'friends' and sets their value equal to 9 and 8 respectively.
+# Then assesses whether the value of the two variables is inequal and returns the result. In this case, it will
+# return true.
 
 
 #-------------------
@@ -88,15 +94,15 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+loves_to_play && age < 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
