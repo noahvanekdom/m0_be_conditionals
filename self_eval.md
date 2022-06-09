@@ -9,6 +9,6 @@
 1. How much time did you spend on this lesson/topic? How did that line up with your time estimate?
 * It was very split up, today was unfortunately a day I had a ton of personal things that couldn't be moved to other days, but luckily the rest of the week is totally clear. I think overall, probably close to 45 minutes on everything that wasnt the challenges, then another hour of on-and-off work on the challenge.
 1. What do you still need to practice or learn? How will you do that? Do you need to adjust your calendar in order to do that?
-* Just joining the things we've learned together so that I have a more natural understanding of proper syntax. I think my calendar allows for it in my end of day time, as well as my daily prep time.
+* I need to make sure I don't let my commit titles get out of the correct format, but beyond that just joining the things we've learned together so that I have a more natural understanding of proper syntax. I think my calendar allows for it in my end of day time, as well as my daily prep time.
 1. What questions do you still have? How will you get the answers you need?
 * I'll probably reassess this when I go back through my work tomorrow morning, I find I generate a lot of questions overnight.
